@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <ion-content [fullscreen]="true">
+        <h1 class="h1">BoviCare</h1>
+    
+        <ion-card class="card-bottom">
+            <ion-card-content>
+                <form>
+                    <ion-item class="large">
+                        <ion-label position="floating">Usuario</ion-label>
+                        <ion-input formControlName="nombre"></ion-input>
+                    </ion-item>
+                    <ion-item class="large">
+                        <ion-label position="floating">Contraseña</ion-label>
+                        <ion-input formControlName="password" type="password"></ion-input>
+                    </ion-item>
+                </form>
+                <ion-buttons>
+                    <a href="menu/menu.html">
+                        <ion-button shape="round" fill="clear" class="ingresar">
+                            &nbsp;&nbsp;Ingresar&nbsp;&nbsp;
+                        </ion-button>
+                    </a>
+                    <a href="registrar/registrar.html">
+                        <ion-button slot="start" shape="round" class="registrate">Registrate</ion-button>
+                    </a>
+                </ion-buttons>
+            </ion-card-content>
+        </ion-card>
+    </ion-content>
+</body>
+</html>

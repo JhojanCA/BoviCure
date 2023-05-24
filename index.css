@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+
+#container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#container strong {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#container p {
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #8c8c8c;
+
+    margin: 0;
+}
+
+#container a {
+    text-decoration: none;
+}
+
+.h1 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 70px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+ion-content {
+    --background: url('assets/login2.jpg') repeat top;
+}
+
+.card-bottom {
+    position: fixed;
+    bottom: -10px;
+    left: -22px;
+    width: 106%;
+    height: 35%;
+    border-radius: 50px 50px 0 0;
+}
+
+ion-card-content {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 8%;
+}
+
+ion-item ion-label {
+    font-family: 'Jost', sans-serif;
+}
+
+.large {
+    font-size: 16px;
+    width: 125%;
+    padding-top: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #00310B;
+}
+
+ion-button {
+    font-size: 14px;
+    height: 44px;
+    font-family: 'Jost', sans-serif;
+}
+
+.ingresar {
+    color: #00310B;
+    border: 1px solid #00310B;
+    border-radius: 14px;
+}
+
+.registrate {
+    color: #A6A6A6  ;
+}
